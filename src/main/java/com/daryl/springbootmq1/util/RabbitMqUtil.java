@@ -13,7 +13,7 @@ public class RabbitMqUtil {
     private RabbitMqUtil() {}
 
     /**
-     * 获取消息被重试的次数
+     * 获取消息被重试的次数,
      *
      * @param messageProperties
      * @return
