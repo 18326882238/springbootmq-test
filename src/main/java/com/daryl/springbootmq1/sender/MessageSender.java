@@ -104,7 +104,7 @@ public class MessageSender {
     /**
      * 异步发送消息， 异步发送，性能更高，但是无法知道消息是否发送到了exchange,可以开启生产端的重试机制
      * spring.rabbitmq.template.retry.enabled=true，默认是false,另外 重试机制默认是重试3次，每次间隔一定时间再次重试,
-     *
+     * 异步
      * @param receiveMessage
      */
     public void asyncSend(String receiveMessage) {
